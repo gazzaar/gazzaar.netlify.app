@@ -1,7 +1,8 @@
 ---
-title: "Projects Collection"
-description: "How to add projects to your portfolio."
-date: "Mar 20 2024"
+title: 'Projects Collection'
+description: 'How to add projects to your portfolio.'
+date: 'Mar 20 2024'
+draft: true
 ---
 
 The `projects` collections is found in `src/content/projects`.
@@ -21,14 +22,13 @@ In the above example, two static pages will be generated, based on the existence
 - `https://example.com/projects/project-1`
 - `https://example.com/projects/project-2`
 
-
 All content must be preceded by required metadata in the markdown file in `yaml` format, and be enclosed by triple dashes. --- ---
 
 ```mdx
 ---
-title: "My awesome project"
-description: "A description of my project."
-date: "Mar 22 2024"
+title: 'My awesome project'
+description: 'A description of my project.'
+date: 'Mar 22 2024'
 draft: false
 ---
 ```
@@ -48,9 +48,9 @@ All that's left to do is write your content under the metadata.
 
 ```mdx
 ---
-title: "My awesome project"
-description: "A description of my project."
-date: "Mar 22 2024"
+title: 'My awesome project'
+description: 'A description of my project.'
+date: 'Mar 22 2024'
 draft: false
 ---
 
@@ -60,3 +60,4 @@ This is a paragraph about my project.
 ```
 
 🎉 Congrats, you are now a blogger, _and_ developer.
+
